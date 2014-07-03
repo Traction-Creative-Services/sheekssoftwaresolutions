@@ -1,0 +1,83 @@
+<html>
+<head>
+	<title>Mail Admin</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function() {
+			$('#submit').click(function() { buttonClick() });
+		});
+		function buttonClick() {
+			var user = $('#u').val();
+            var atPos = user.indexOf('@');
+			if(atPos > 1) {
+                $('#u').val(user);
+            } else {
+                $('#u').val(user+'@sheekssoftwaresolutions.com');
+            }
+			login.action='http://www.fatcow.com/mail/index.bml?s=1';
+			login.destination.value = '/mailadmin/index.bml?check=1';
+		}
+	</script>
+    <style>
+        @font-face {
+            font-family:'cl';
+            src:url('CaviarDreams.ttf');
+        }
+
+        body {
+            background:#dedfdf;
+            font-family:'cl';
+        }
+
+        #loginForm {
+            width:500px;
+            height:450px;
+            margin:100px auto;
+            background:#fff;
+            padding:20px;
+            border-radius:10px;
+            font-size:2em;
+            font-weight:bold;
+            text-align:center;
+            line-height:1.5em;
+        }
+
+        #logo {
+            margin:15px 0;
+        }
+
+        input[type='text'], input[type='password'] {
+            width:275px;
+            height:30px;
+            text-align:center;
+            font-size:20px;
+        }
+
+        input[type='submit'] {
+            border:1px solid #333;
+            border-radius:5px;
+            background:#eeefef;
+            font-size:1.2em;
+            margin:20px 0;
+            padding:10px;
+        }
+
+        input[type='submit']:hover {
+            background:#0185B9;
+        }
+    </style>
+</head>
+<body>
+<div id="loginForm">
+    <img alt="S3" id="logo" src="logo.jpg" />
+    <form METHOD="POST" NAME="login" ENCTYPE="application/x-www-form-urlencoded">
+        Username:<br />
+        <INPUT ID='u' TYPE="text" NAME="credential_0" value="" SIZE="30" MAXLENGTH="128" class="formfield"><br />
+        Password:<br />
+        <INPUT TYPE="password" NAME="credential_1" SIZE="20" MAXLENGTH="50" class="formfield"><br />
+        <INPUT ID='submit' TYPE="submit" NAME="Log In" VALUE="Login" onclick="" >
+        <INPUT TYPE="hidden" NAME="destination">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+body { margin:0; padding:0; position:relative; top:0; left:0; bottom:0; right:0; }
+a { color:black; text-decoration:none;}
+.spacer { clear:both; height:30px;}
+.clear { clear:both;}
+.copy { font-size:0.8em;}
+.img-right { float:right; margin:10px; } .img-left { float:left; margin:10px; } .img-one-third { width:30%; } .img-half { width:50%; } .img-two-thirds { width:70%;} .img-full { width:90%; margin: 10px auto;}
+.img-one-third img, .img-two-thirds img, .img-half img, .img-fill img { width:100%;}
