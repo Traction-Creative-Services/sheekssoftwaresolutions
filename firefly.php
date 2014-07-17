@@ -53,7 +53,7 @@ include('php/subheader.global.php');
         <h2>Fees Being Eliminated</h2>
         <ul>
             <li>Domain Renewal Fees</li>
-            <li>Site Migration Fees</li>
+            <li>Site Migration Fees<span class="anote">3</span></li>
         </ul>
         <h2>New Subscription Rates</h2>
         <div id="subscriptions-table">
@@ -104,7 +104,7 @@ include('php/subheader.global.php');
         <p>Mainly, these are behind-the-scenes changes. However, you will see a change in the webmail client, if you use our hosted webmail. Adittionally, if your website is hosted with S3, your site will be being delivered to your clients faster than ever before.</p>
         
         <div class='spacer'></div>
-        <p class='copy'>1) Rates valid for first year of subscription. <br /> 2) On-Call Support available between the hours of 8 AM and 8 PM. Support outside of standard business hours not included in subscription cost.</p>
+        <p class='copy'>1) Rates valid for first year of subscription. <br /> 2) On-Call Support available between the hours of 8 AM and 8 PM. Support outside of standard business hours not included in subscription cost. <br/> 3) Site migration fees still apply for anyone not using the Managed Hosting or Firefly Bundle subscription.</p>
     </div>
 <?php
 include('php/footer.global.php');
