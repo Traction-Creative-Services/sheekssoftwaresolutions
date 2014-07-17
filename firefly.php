@@ -49,6 +49,7 @@ include('php/subheader.global.php');
         <p>S3 is moving to a newer, better system! We'll be offering you better email, and faster than ever delivery of your websites. This is the first wave of our Firefly update plan, and while there's more to come, this is the only update that will have pricing changes for existing customers. Please read the details below, and contact Martin to proceed with your new subscription. Technical jargon is below the price details, for those interested.</p>
         <h1>Pricing Changes</h1>
         <p>In order to support our new system, we are now requiring the following subscriptions for our clients. If you wish to use the services listed here, you must sign up for the appropriate subscription. We strongly recommend the Firefly Bundle.</p>
+        <p><strong>The following changes go into effect September 1<sup>st</sup>, 2014</strong></p>
         <h2>Fees Being Eliminated</h2>
         <ul>
             <li>Domain Renewal Fees</li>
