@@ -32,8 +32,8 @@ include('php/subheader.global.php');
         <p>Our pay schedule is pretty straight forward.</p>
         <p>
             25% of your estimate will be due on signing<br>
-            another 25% of your estimate is due at design approval<br>
-            the final 50% is due on launch, plus any additional charges incurred above estimate (these are rare, but we go for full disclosure).
+            another 50% of your estimate is due at design approval<br>
+            the final 25% is due on launch, plus any additional charges incurred above estimate (these are rare, but we go for full disclosure).
         </p>
         <div class='spacer'></div>
         <p class='copy'>1) charge free changes are limited to reasonable work that requires less than 2 hours of development time. If your change or addition exceeds this limit, it will be considered a project and must be scoped and quoted before we begin.<br>
