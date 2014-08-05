@@ -1,0 +1,43 @@
+body {
+	margin-top:70px;
+}
+
+.navbar {
+	background:#FFF;
+}
+
+.navbar-brand img {
+	height:100%;
+}
+
+.project {
+	background:#999;
+	height:150px;
+}
+
+a .project {
+	color:#EEE;
+}
+
+.project:hover {
+	color:#FFF;
+	background:#666;
+}
+
+.past {
+	opacity:0.2;
+}
+
+.completed td {
+	color:green;
+}
+
+.late td {
+	color:red;
+}
+
+.sectionHeader {
+	background:#333 !important;
+	color:#EEE !important;
+	font-weight:bold !important;
+}
